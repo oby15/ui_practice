@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('single_page/', include("single_page.urls")),
     path('infinite_scroll/', include("infinite_scroll.urls")),
-    path('animation/', include("animation.urls"))
+    path('animation/', include("animation.urls")),
+    path('react_hello/', include("react_hello.urls"))
 ]

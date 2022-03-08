@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'react_hello',
     'animation',
     'infinite_scroll',
     'single_page',
